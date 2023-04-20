@@ -32,6 +32,28 @@ const posts = [
     ],
     publishedAt: new Date("2022-12-10 13:00"),
   },
+
+  {
+    id: 2,
+    author: {
+      avatarUrl: "https://github.com/glauber2k2.png",
+      name: "Glauber",
+      role: "full-stack developer",
+    },
+
+    content: [
+      {
+        type: "paragraph",
+        content: '"Publicando na minha rede social"',
+      },
+      {
+        type: "paragraph",
+        content: "Segue o link do meu portfolio",
+      },
+      { type: "link", content: "Ir para o site." },
+    ],
+    publishedAt: new Date("2022-12-10 13:00"),
+  },
 ];
 
 export function App() {
